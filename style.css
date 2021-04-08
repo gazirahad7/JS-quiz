@@ -1,0 +1,86 @@
+body {
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+h2,
+h4 {
+  text-align: center;
+}
+
+label {
+  border: none;
+}
+.point {
+  float: right;
+  font-weight: bold;
+  border: none;
+}
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.main-div {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 14px 10px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: tomato;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.wrong {
+  /* color: rgb(201, 67, 67); */
+  border: 2px solid rgb(201, 67, 67);
+}
+
+.right {
+  /* color: rgb(68, 206, 68); */
+  border: 2px solid rgb(68, 206, 68);
+}
+.correct-ans {
+  color: rgb(68, 206, 68);
+  font-weight: bold;
+}
+.ans-value {
+  color: #000;
+  font-size: 14px;
+}
+
+#student-info {
+  border: 1px solid tomato;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-top: 40px;
+  width: 50%;
+  text-align: center;
+  color: #000;
+}
+#form {
+  display: none;
+}
+.result {
+  text-align: center;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 8px;
+  border: 2px solid tomato;
+  color: #fff;
+  padding: 2px 0;
+}
+h5 {
+  margin: 0;
+}
